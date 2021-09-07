@@ -1,0 +1,99 @@
+/* The designs were created to the following widths:
+- Mobile: 375px
+- desktop: 1440px
+- Bright Yellow: hsl(71, 73%, 54%)
+- Weights: 400, 700 */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;  
+    background-color: #E4EDF2;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    max-width: 650px;
+    margin: 50px auto 0;
+}
+.top {
+    background-color: #fff;
+    flex: 100%;
+    padding: 20px;
+}
+#color-blue {
+    color: #2BB3B1;
+    margin-top: 0;
+}
+@media (max-width:375px) {
+    #color-blue {
+        font-size: 16px;
+    }
+}
+#color-green {
+    color: #C6E146;
+}
+.top p {
+    color: #CDD2D8;
+    max-width: 550px;
+    line-height: 24px;
+}
+.left {
+    background-color: #2BB3B1;
+    flex: 1 1 40%;
+    padding: 20px;
+}
+.left h4 {
+    margin-top: 0;
+}
+.left #cost {
+    font-size: 32px;
+    margin-right: 10px;
+}
+#cost + span {
+    opacity: 0.5;
+}
+.left p {
+    opacity: 0.8;
+}
+.left a {
+    display: block;
+    width: 200px;
+    margin: auto;
+    background: #BFDF32;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+}
+.left a:hover {
+    background: #cfe765;
+    background: linear-gradient(0deg, rgba(191, 223, 50) 0%, rgba(207, 231, 101) 100%);
+}
+.right {
+    flex: 1 1 40%;
+    padding: 20px;
+    background-color: #4ABEBD;
+}
+.right h3 {
+    margin-top: 0;
+}
+.right pre {
+    font-family: 'Karla', sans-serif;
+    white-space: pre-line;
+    line-height: 22px;
+    opacity: 0.8;
+}
+.attribution {
+    color: #333663;
+    text-align: center;
+}
+.attribution a {
+    color: #3336;
+    text-decoration: none;
+}
